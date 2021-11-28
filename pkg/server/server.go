@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"../conf"
+	"github.com/BSmithIO/dnsmasconf/pkg/conf"
 	ctrl "sigs.k8s.io/controller-runtime"
 )
 
