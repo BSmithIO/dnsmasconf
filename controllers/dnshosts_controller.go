@@ -26,9 +26,9 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	dnsmasqv1 "../api/v1"
-	"../pkg/conf"
-	"../pkg/util"
+	dnsmasqv1 "github.com/BSmithIO/dnsmasconf/tree/master/api/v1"
+	"github.com/BSmithIO/dnsmasconf/tree/master/pkg/conf"
+	"github.com/BSmithIO/dnsmasconf/tree/master/pkg/util"
 )
 
 // DnsHostsReconciler reconciles a DnsHosts object
