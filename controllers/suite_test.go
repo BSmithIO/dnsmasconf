@@ -30,7 +30,7 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	dnsmasqv1 "github.com/BSmithIO/dnsmasconf/tree/master/api/v1"
+	dnsmasqv1 "github.com/BSmithIO/dnsmasconf/api/v1"
 	// +kubebuilder:scaffold:imports
 )
 
